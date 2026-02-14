@@ -79,7 +79,7 @@ bool MainWindow::Create(HINSTANCE hInstance) {
     wc.lpszClassName = CLASS_NAME;
     wc.hCursor = LoadCursor(nullptr, IDC_ARROW);
     wc.hbrBackground = reinterpret_cast<HBRUSH>(COLOR_WINDOW + 1);
-    wc.hIcon = LoadIconW(hInstance, L"IDI_APPICON");
+    wc.hIcon = LoadIconW(hInstance, MAKEINTRESOURCEW(1));
     if (!wc.hIcon) wc.hIcon = LoadIcon(nullptr, IDI_APPLICATION);
     RegisterClassExW(&wc);
 
