@@ -109,18 +109,13 @@ bool GitManager::WriteGitIgnore() {
         Log("Failed to write .gitignore");
         return false;
     }
-    f << "# DDO Builder V2 - only sync build files\n";
-    f << "DataFiles/\n";
-    f << "Example Builds/\n";
-    f << "*.exe\n";
-    f << "*.chm\n";
-    f << "*.ini\n";
-    f << "*.dll\n";
-    f << "*.log\n";
-    f << "wget.exe\n";
+    f << "# DDO Builder V2 - ignore everything except build files\n";
+    f << "*\n";
     f << "\n";
-    f << "# Keep only build files\n";
-    f << "# *.DDOBuild and *.DDOBuild.backup are tracked\n";
+    f << "# Allow build files\n";
+    f << "!.gitignore\n";
+    f << "!*.DDOBuild\n";
+    f << "!*.DDOBuild.backup\n";
     f.close();
     Log("Wrote .gitignore");
     return true;
@@ -158,10 +153,8 @@ bool GitManager::InitRepo() {
         }
     }
 
-    // Add .gitignore and build files
-    RunGit("add .gitignore", output);
-    RunGit("add *.DDOBuild", output);
-    RunGit("add *.DDOBuild.backup", output);
+    // Add all build files (.gitignore whitelist handles filtering)
+    RunGit("add -A", output);
 
     // Initial commit
     if (RunGit("commit -m \"Initial commit - DDO Builder builds\"", output) != 0) {
@@ -214,10 +207,9 @@ bool GitManager::Push() {
     Log("Pushing builds...");
     std::string output;
 
-    // Stage build files
-    RunGit("add *.DDOBuild", output);
-    RunGit("add *.DDOBuild.backup", output);
-    RunGit("add .gitignore", output);
+    // Stage all changes (additions, modifications, and deletions)
+    // .gitignore whitelist ensures only build files are tracked
+    RunGit("add -A", output);
 
     // Check if there are changes
     int changedCount = GetChangedFileCount();
