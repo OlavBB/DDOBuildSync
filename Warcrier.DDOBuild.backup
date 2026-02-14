@@ -1,0 +1,2187 @@
+<DDOBuilderCharacterData>
+  <Character version="1">
+    <StrTome>3</StrTome>
+    <DexTome>2</DexTome>
+    <ConTome>3</ConTome>
+    <IntTome>3</IntTome>
+    <WisTome>2</WisTome>
+    <ChaTome>3</ChaTome>
+    <SpecialFeats>
+      <TrainedFeat>
+        <FeatName>Past Life: Bard</FeatName>
+        <Type>HeroicPastLife</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Past Life: Barbarian</FeatName>
+        <Type>HeroicPastLife</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Past Life: Fighter</FeatName>
+        <Type>HeroicPastLife</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Inherent Fate Point</FeatName>
+        <Type>Special</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Divine Crusader</FeatName>
+        <Type>EpicDestinyTree</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Draconic Incarnation</FeatName>
+        <Type>EpicDestinyTree</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Exalted Angel</FeatName>
+        <Type>EpicDestinyTree</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Fatesinger</FeatName>
+        <Type>EpicDestinyTree</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Fury of the Wild</FeatName>
+        <Type>EpicDestinyTree</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Grandmaster of Flowers</FeatName>
+        <Type>EpicDestinyTree</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Legendary Dreadnought</FeatName>
+        <Type>EpicDestinyTree</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Machrotechnic</FeatName>
+        <Type>EpicDestinyTree</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Magus of the Eclipse</FeatName>
+        <Type>EpicDestinyTree</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Primal Avatar</FeatName>
+        <Type>EpicDestinyTree</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Shadowdancer</FeatName>
+        <Type>EpicDestinyTree</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Shiradi Champion</FeatName>
+        <Type>EpicDestinyTree</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+      <TrainedFeat>
+        <FeatName>Unyielding Sentinel</FeatName>
+        <Type>EpicDestinyTree</Type>
+        <LevelTrainedAt>0</LevelTrainedAt>
+      </TrainedFeat>
+    </SpecialFeats>
+    <SkillTomes>
+      <Balance>0</Balance>
+      <Bluff>0</Bluff>
+      <Concentration>0</Concentration>
+      <Diplomacy>0</Diplomacy>
+      <DisableDevice>0</DisableDevice>
+      <Haggle>0</Haggle>
+      <Heal>0</Heal>
+      <Hide>0</Hide>
+      <Intimidate>0</Intimidate>
+      <Jump>0</Jump>
+      <Listen>0</Listen>
+      <MoveSilently>0</MoveSilently>
+      <OpenLock>0</OpenLock>
+      <Perform>0</Perform>
+      <Repair>0</Repair>
+      <Search>0</Search>
+      <SpellCraft>0</SpellCraft>
+      <Spot>0</Spot>
+      <Swim>0</Swim>
+      <Tumble>0</Tumble>
+      <UMD>0</UMD>
+    </SkillTomes>
+    <Life version="1">
+      <Name/>
+      <Race>Human</Race>
+      <Alignment>Lawful Neutral</Alignment>
+      <SpecialFeats>
+        <TrainedFeat>
+          <FeatName>Vistani Knife Fighter Tree</FeatName>
+          <Type>UniversalTree</Type>
+          <LevelTrainedAt>0</LevelTrainedAt>
+        </TrainedFeat>
+        <TrainedFeat>
+          <FeatName>Inquisitive Tree</FeatName>
+          <Type>UniversalTree</Type>
+          <LevelTrainedAt>0</LevelTrainedAt>
+        </TrainedFeat>
+        <TrainedFeat>
+          <FeatName>Horizon Walker Tree</FeatName>
+          <Type>UniversalTree</Type>
+          <LevelTrainedAt>0</LevelTrainedAt>
+        </TrainedFeat>
+        <TrainedFeat>
+          <FeatName>Harper Agent Tree</FeatName>
+          <Type>UniversalTree</Type>
+          <LevelTrainedAt>0</LevelTrainedAt>
+        </TrainedFeat>
+        <TrainedFeat>
+          <FeatName>Feydark Illusionist Tree</FeatName>
+          <Type>UniversalTree</Type>
+          <LevelTrainedAt>0</LevelTrainedAt>
+        </TrainedFeat>
+        <TrainedFeat>
+          <FeatName>Falconry Tree</FeatName>
+          <Type>UniversalTree</Type>
+          <LevelTrainedAt>0</LevelTrainedAt>
+        </TrainedFeat>
+      </SpecialFeats>
+      <Build version="1">
+        <Level>12</Level>
+        <Class1>Cleric</Class1>
+        <Class2>Fighter</Class2>
+        <Class3>Unknown</Class3>
+        <AbilitySpend>
+          <AvailableSpend>36</AvailableSpend>
+          <StrSpend>10</StrSpend>
+          <DexSpend>4</DexSpend>
+          <ConSpend>8</ConSpend>
+          <IntSpend>2</IntSpend>
+          <WisSpend>2</WisSpend>
+          <ChaSpend>2</ChaSpend>
+        </AbilitySpend>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>12</SkillPointsAvailable>
+          <SkillPointsSpent>8</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Follower of the Blood of Vol</FeatName>
+            <Type>Follower Of</Type>
+            <LevelTrainedAt>0</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Quicken Spell</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>0</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Single Weapon Fighting</FeatName>
+            <Type>Human Bonus Feat</Type>
+            <LevelTrainedAt>0</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Domain of War</FeatName>
+            <Type>Domain</Type>
+            <LevelTrainedAt>1</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Fighter</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Precision</FeatName>
+            <Type>Fighter Bonus Feat</Type>
+            <LevelTrainedAt>2</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Empower Healing Spell</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>2</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Improved Domain of War</FeatName>
+            <Type>Domain Feat</Type>
+            <LevelTrainedAt>5</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Child of Faith</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>5</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Search the Soul</FeatName>
+            <Type>Deity</Type>
+            <LevelTrainedAt>6</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Improved Single Weapon Fighting</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>8</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Greater Domain of War</FeatName>
+            <Type>Domain Feat</Type>
+            <LevelTrainedAt>9</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Improved Critical: Piercing Weapons</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>11</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <ActiveStances>
+          <Stances>Cloth Armor</Stances>
+          <Stances>Centered</Stances>
+          <Stances>Lawful</Stances>
+          <Stances>Empty</Stances>
+          <Stances>Human</Stances>
+        </ActiveStances>
+        <Destiny_SelectedTrees>
+          <TreeName>No selection</TreeName>
+          <TreeName>No selection</TreeName>
+          <TreeName>No selection</TreeName>
+          <TreeName>No selection</TreeName>
+        </Destiny_SelectedTrees>
+        <Enhancement_SelectedTrees>
+          <TreeName>Human</TreeName>
+          <TreeName>Divine Disciple</TreeName>
+          <TreeName>Radiant Servant</TreeName>
+          <TreeName>Warpriest</TreeName>
+          <TreeName>Kensei</TreeName>
+          <TreeName>Stalwart Defender</TreeName>
+          <TreeName>Vanguard</TreeName>
+        </Enhancement_SelectedTrees>
+        <Reaper_SelectedTrees>
+          <TreeName>Dire Thaumaturge</TreeName>
+          <TreeName>Dread Adversary</TreeName>
+          <TreeName>Grim Barricade</TreeName>
+        </Reaper_SelectedTrees>
+        <ActiveAttackChain/>
+        <ActiveGear>Standard</ActiveGear>
+        <EquippedGear>
+          <Name>Standard</Name>
+          <NumFiligrees>0</NumFiligrees>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <SnapshotStrength>34</SnapshotStrength>
+          <SnapshotIntelligence>17</SnapshotIntelligence>
+          <SnapshotWisdom>16</SnapshotWisdom>
+          <SnapshotDexterity>16</SnapshotDexterity>
+          <SnapshotConstitution>23</SnapshotConstitution>
+          <SnapshotCharisma>19</SnapshotCharisma>
+        </EquippedGear>
+        <FavorFeats/>
+        <Notes/>
+        <Level4>Strength</Level4>
+        <Level8>Strength</Level8>
+        <Level12>Strength</Level12>
+        <Level16>Strength</Level16>
+        <Level20>Strength</Level20>
+        <Level24>Strength</Level24>
+        <Level28>Strength</Level28>
+        <Level32>Strength</Level32>
+        <Level36>Strength</Level36>
+        <Level40>Strength</Level40>
+      </Build>
+      <Build version="1">
+        <Level>32</Level>
+        <Class1>Cleric</Class1>
+        <Class2>Fighter</Class2>
+        <Class3>Unknown</Class3>
+        <AbilitySpend>
+          <AvailableSpend>36</AvailableSpend>
+          <StrSpend>10</StrSpend>
+          <DexSpend>4</DexSpend>
+          <ConSpend>8</ConSpend>
+          <IntSpend>2</IntSpend>
+          <WisSpend>0</WisSpend>
+          <ChaSpend>4</ChaSpend>
+        </AbilitySpend>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>12</SkillPointsAvailable>
+          <SkillPointsSpent>8</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Follower of the Blood of Vol</FeatName>
+            <Type>Follower Of</Type>
+            <LevelTrainedAt>0</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Single Weapon Fighting</FeatName>
+            <Type>Human Bonus Feat</Type>
+            <LevelTrainedAt>0</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Dodge</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>0</LevelTrainedAt>
+            <FeatSwapWarning/>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Domain of War</FeatName>
+            <Type>Domain</Type>
+            <LevelTrainedAt>1</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Fighter</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Weapon Focus: Piercing Weapons</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>2</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Mobility</FeatName>
+            <Type>Fighter Bonus Feat</Type>
+            <LevelTrainedAt>2</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Improved Domain of War</FeatName>
+            <Type>Domain Feat</Type>
+            <LevelTrainedAt>5</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Whirlwind Attack</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>5</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Search the Soul</FeatName>
+            <Type>Deity</Type>
+            <LevelTrainedAt>6</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Improved Single Weapon Fighting</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>8</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Greater Domain of War</FeatName>
+            <Type>Domain Feat</Type>
+            <LevelTrainedAt>9</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Improved Critical: Piercing Weapons</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>11</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Fighter</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Offhand Versatility</FeatName>
+            <Type>Fighter Bonus Feat</Type>
+            <LevelTrainedAt>12</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Fighter</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Fighter</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Greater Single Weapon Fighting</FeatName>
+            <Type>Fighter Bonus Feat</Type>
+            <LevelTrainedAt>14</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Quicken Spell</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>14</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Fighter</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Empower Healing Spell</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>17</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Master of the Domain of War</FeatName>
+            <Type>Domain Feat</Type>
+            <LevelTrainedAt>18</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Fighter</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Weapon Specialization: Piercing Weapons</FeatName>
+            <Type>Fighter Bonus Feat</Type>
+            <LevelTrainedAt>19</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Overwhelming Critical</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>20</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Perfect Single Weapon Fighting</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>21</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Patience</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>23</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Doublestrike</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>24</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Eerie Aim</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>26</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Embodiment of Law</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>27</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Epic Damage Reduction</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>29</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Scion of Arborea</FeatName>
+            <Type>Legendary Feat</Type>
+            <LevelTrainedAt>29</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Deific Warding</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>30</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <ActiveStances>
+          <Stances>Cloth Armor</Stances>
+          <Stances>Centered</Stances>
+          <Stances>Lawful</Stances>
+          <Stances>Empty</Stances>
+          <Stances>Human</Stances>
+          <Stances>Divine Might</Stances>
+          <Stances>War Priest: Fires of Fury</Stances>
+        </ActiveStances>
+        <Destiny_SelectedTrees>
+          <TreeName>Divine Crusader</TreeName>
+          <TreeName>Draconic Incarnation</TreeName>
+          <TreeName>Exalted Angel</TreeName>
+          <TreeName>Fatesinger</TreeName>
+        </Destiny_SelectedTrees>
+        <Enhancement_SelectedTrees>
+          <TreeName>Human</TreeName>
+          <TreeName>Vistani Knife Fighter</TreeName>
+          <TreeName>Warpriest</TreeName>
+          <TreeName>Kensei</TreeName>
+          <TreeName>Radiant Servant</TreeName>
+          <TreeName>Falconry</TreeName>
+          <TreeName>Divine Disciple</TreeName>
+          <Tier5Tree>Warpriest</Tier5Tree>
+        </Enhancement_SelectedTrees>
+        <Reaper_SelectedTrees>
+          <TreeName>Dire Thaumaturge</TreeName>
+          <TreeName>Dread Adversary</TreeName>
+          <TreeName>Grim Barricade</TreeName>
+        </Reaper_SelectedTrees>
+        <EnhancementSpendInTree>
+          <TreeName>Kensei</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiCore1</EnhancementName>
+            <Selection>Kensei Focus: Light Blades</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>KenseiWeaponGroupSecializationI</EnhancementName>
+            <Selection>Kensei Focus: Light Blades</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Warpriest</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>WPCore1</EnhancementName>
+            <Selection>Smite Foe (Melee)</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPRighteousWeaponsI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPDivineMight</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPToughness</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPRighteousWeaponsII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPWallOfSteel</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPAbilityScoreI</EnhancementName>
+            <Selection>+1 Strength</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPRighteousWeaponsIII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPHolyStriker</EnhancementName>
+            <Selection>Holy Striker</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPRighteousWeaponsIV</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPFiresOfFury</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPAbilityScoreII</EnhancementName>
+            <Selection>+1 Strength</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPDivineBastion</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPWrathfulWeapons</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>WPDivinePower</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Vistani Knife Fighter</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>MistStalkerI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>RapidAttack</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>UndeadHunter</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniKnifeTrainingI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniAcrobatic</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniHasteBoost</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniKnifeTrainingII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BleedingCuts</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>MistStalkerII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniKnifeTrainingIII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>GiftedI</EnhancementName>
+            <Selection>+1 Strength</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DeadlyBlades</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>MistStalkerIII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DoubleDaggers</EnhancementName>
+            <Selection>Single Dagger</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>GiftedII</EnhancementName>
+            <Selection>+1 Strength</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>Celerity</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniKnifeTrainingIV</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>MistStalkerIV</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniCore5</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniCore6</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <ActiveAttackChain/>
+        <ActiveGear>Standard</ActiveGear>
+        <EquippedGear>
+          <Name>Standard</Name>
+          <NumFiligrees>0</NumFiligrees>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <SnapshotStrength>37</SnapshotStrength>
+          <SnapshotIntelligence>17</SnapshotIntelligence>
+          <SnapshotWisdom>16</SnapshotWisdom>
+          <SnapshotDexterity>16</SnapshotDexterity>
+          <SnapshotConstitution>23</SnapshotConstitution>
+          <SnapshotCharisma>19</SnapshotCharisma>
+        </EquippedGear>
+        <FavorFeats/>
+        <Notes/>
+        <Level4>Strength</Level4>
+        <Level8>Strength</Level8>
+        <Level12>Strength</Level12>
+        <Level16>Strength</Level16>
+        <Level20>Strength</Level20>
+        <Level24>Strength</Level24>
+        <Level28>Strength</Level28>
+        <Level32>Strength</Level32>
+        <Level36>Strength</Level36>
+        <Level40>Strength</Level40>
+      </Build>
+      <Build version="1">
+        <Level>34</Level>
+        <Class1>Cleric</Class1>
+        <Class2>Dragon Lord</Class2>
+        <Class3>Unknown</Class3>
+        <AbilitySpend>
+          <AvailableSpend>36</AvailableSpend>
+          <StrSpend>10</StrSpend>
+          <DexSpend>2</DexSpend>
+          <ConSpend>8</ConSpend>
+          <IntSpend>2</IntSpend>
+          <WisSpend>2</WisSpend>
+          <ChaSpend>4</ChaSpend>
+        </AbilitySpend>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>12</SkillPointsAvailable>
+          <SkillPointsSpent>8</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Follower of the Blood of Vol</FeatName>
+            <Type>Follower Of</Type>
+            <LevelTrainedAt>0</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Single Weapon Fighting</FeatName>
+            <Type>Human Bonus Feat</Type>
+            <LevelTrainedAt>0</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Quicken Spell</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>0</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Nevalarich's Hunger</FeatName>
+            <Type>Minor Draconic Aura</Type>
+            <LevelTrainedAt>1</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Domain of War</FeatName>
+            <Type>Domain</Type>
+            <LevelTrainedAt>2</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Empower Healing Spell</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>2</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Improved Domain of War</FeatName>
+            <Type>Domain Feat</Type>
+            <LevelTrainedAt>5</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Power Attack</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>5</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>The Blood is The Life</FeatName>
+            <Type>Deity</Type>
+            <LevelTrainedAt>6</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Improved Single Weapon Fighting</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>8</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Greater Domain of War</FeatName>
+            <Type>Domain Feat</Type>
+            <LevelTrainedAt>9</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>1</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Balance</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Improved Critical: Piercing Weapons</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>11</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Offhand Versatility</FeatName>
+            <Type>Fighter Bonus Feat</Type>
+            <LevelTrainedAt>12</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Greater Single Weapon Fighting</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>14</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Weapon Focus: Piercing Weapons</FeatName>
+            <Type>Fighter Bonus Feat</Type>
+            <LevelTrainedAt>14</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Weapon Specialization: Piercing Weapons</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>17</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Master of the Domain of War</FeatName>
+            <Type>Domain Feat</Type>
+            <LevelTrainedAt>18</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Stunning Blow</FeatName>
+            <Type>Fighter Bonus Feat</Type>
+            <LevelTrainedAt>19</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Overwhelming Critical</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>20</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Perfect Single Weapon Fighting</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>21</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Patience</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>23</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Guarded Actions</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>24</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Epic Damage Reduction</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>26</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Deific Warding</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>27</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Eerie Aim</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>29</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Scion of Arborea</FeatName>
+            <Type>Legendary Feat</Type>
+            <LevelTrainedAt>29</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Doublestrike</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>30</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Toughness</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>32</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Titan's Blood</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>33</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <ActiveStances>
+          <Stances>Cloth Armor</Stances>
+          <Stances>Centered</Stances>
+          <Stances>Lawful</Stances>
+          <Stances>Empty</Stances>
+          <Stances>Human</Stances>
+          <Stances>War Priest: Fires of Fury</Stances>
+          <Stances>Divine Might</Stances>
+          <Stances>Vistani: Coins</Stances>
+        </ActiveStances>
+        <Destiny_SelectedTrees>
+          <TreeName>Legendary Dreadnought</TreeName>
+          <TreeName>Fury of the Wild</TreeName>
+          <TreeName>Primal Avatar</TreeName>
+          <TreeName>Fatesinger</TreeName>
+        </Destiny_SelectedTrees>
+        <Enhancement_SelectedTrees>
+          <TreeName>Human</TreeName>
+          <TreeName>Vistani Knife Fighter</TreeName>
+          <TreeName>Warpriest</TreeName>
+          <TreeName>Dragon Lord</TreeName>
+          <TreeName>Radiant Servant</TreeName>
+          <TreeName>Falconry</TreeName>
+          <TreeName>Divine Disciple</TreeName>
+          <Tier5Tree>Dragon Lord</Tier5Tree>
+        </Enhancement_SelectedTrees>
+        <Reaper_SelectedTrees>
+          <TreeName>Dire Thaumaturge</TreeName>
+          <TreeName>Dread Adversary</TreeName>
+          <TreeName>Grim Barricade</TreeName>
+        </Reaper_SelectedTrees>
+        <EnhancementSpendInTree>
+          <TreeName>Kensei</TreeName>
+          <TreeVersion>1</TreeVersion>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Vistani Knife Fighter</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>MistStalkerI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>RapidAttack</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>UndeadHunter</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniKnifeTrainingI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniAcrobatic</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniHasteBoost</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniKnifeTrainingII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>BleedingCuts</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>MistStalkerII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniKnifeTrainingIII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>GiftedI</EnhancementName>
+            <Selection>+1 Strength</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DeadlyBlades</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>MistStalkerIII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DoubleDaggers</EnhancementName>
+            <Selection>Single Dagger</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>GiftedII</EnhancementName>
+            <Selection>+1 Strength</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>Celerity</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniKnifeTrainingIV</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>MistStalkerIV</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniCore5</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>VistaniCore6</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Dragon Lord</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordCore1</EnhancementName>
+            <Selection>Soul of the Blue Dragon</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordDragonsProtectionI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordMartialSuperioirity</EnhancementName>
+            <Selection>Dragon Lord: Martial Superiority: Strike Twice</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordBattlefieldTacticianI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordFieldSkills</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordDragonsProtectionII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordDragonslayer</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordBattlefieldTacticianII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordDragonsProtectionIII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordMightOrOutburst</EnhancementName>
+            <Selection>Might in Order</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordAbilityI</EnhancementName>
+            <Selection>+1 Strength</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordDragonsRoar</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordBattlefieldTacticianIII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordDragonsProtectionIV</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordAbilityII</EnhancementName>
+            <Selection>+1 Strength</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordUntouchableSoul</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordLeadTheCharge</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordBattlefieldTacticianIV</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordSoulScales</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordConqueror</EnhancementName>
+            <Ranks>2</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordFlightOfKings</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordTacticalCommander</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>DragonLordImprovedDragonsRoar</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Human</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>HumanCore1</EnhancementName>
+            <Selection>Melee and Ranged Power</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Warpriest</TreeName>
+          <TreeVersion>1</TreeVersion>
+        </EnhancementSpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Legendary Dreadnought</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtDreadMantle</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtPushThroughTheLine</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtEpicTactics</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtGhostTouch</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtCombatBrute</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtExtraActionBoosts</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtStrikeTwice</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtArmorOfDusk</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtStrikeWithFear</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtCarryOn</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51LegendaryDreadnoughtCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </DestinySpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Fury of the Wild</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildEpicStrike</EnhancementName>
+            <Selection>Quick Cutter</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildSavageTakeDown</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildPrimalScream</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildFearMyVengeance</EnhancementName>
+            <Ranks>2</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildWildWeapons</EnhancementName>
+            <Selection>Doublestrike</Selection>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildFurySelector</EnhancementName>
+            <Selection>Spirit of the Beast</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51FuryOfTheWildCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </DestinySpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Divine Crusader</TreeName>
+          <TreeVersion>1</TreeVersion>
+        </DestinySpendInTree>
+        <DestinySpendInTree>
+          <TreeName>Primal Avatar</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarCore1</EnhancementName>
+            <Selection>Heart</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>U51PrimalAvatarRejuvenationCocoon</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </DestinySpendInTree>
+        <ActiveAttackChain/>
+        <ActiveGear>Standard</ActiveGear>
+        <EquippedGear>
+          <Name>Standard</Name>
+          <NumFiligrees>0</NumFiligrees>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <SnapshotStrength>37</SnapshotStrength>
+          <SnapshotIntelligence>17</SnapshotIntelligence>
+          <SnapshotWisdom>16</SnapshotWisdom>
+          <SnapshotDexterity>16</SnapshotDexterity>
+          <SnapshotConstitution>23</SnapshotConstitution>
+          <SnapshotCharisma>19</SnapshotCharisma>
+        </EquippedGear>
+        <FavorFeats/>
+        <Notes/>
+        <Level4>Strength</Level4>
+        <Level8>Strength</Level8>
+        <Level12>Strength</Level12>
+        <Level16>Strength</Level16>
+        <Level20>Strength</Level20>
+        <Level24>Strength</Level24>
+        <Level28>Strength</Level28>
+        <Level32>Strength</Level32>
+        <Level36>Strength</Level36>
+        <Level40>Strength</Level40>
+      </Build>
+    </Life>
+    <Life version="1">
+      <Name/>
+      <Race>Human</Race>
+      <Alignment>Lawful Good</Alignment>
+      <SpecialFeats>
+        <TrainedFeat>
+          <FeatName>Vistani Knife Fighter Tree</FeatName>
+          <Type>UniversalTree</Type>
+          <LevelTrainedAt>0</LevelTrainedAt>
+        </TrainedFeat>
+      </SpecialFeats>
+      <Build version="1">
+        <Level>34</Level>
+        <Class1>Cleric</Class1>
+        <Class2>Dragon Lord</Class2>
+        <Class3>Unknown</Class3>
+        <AbilitySpend>
+          <AvailableSpend>36</AvailableSpend>
+          <StrSpend>0</StrSpend>
+          <DexSpend>0</DexSpend>
+          <ConSpend>0</ConSpend>
+          <IntSpend>0</IntSpend>
+          <WisSpend>0</WisSpend>
+          <ChaSpend>0</ChaSpend>
+        </AbilitySpend>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>8</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>3</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>3</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>3</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>3</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Dragon Lord</Class>
+          <SkillPointsAvailable>3</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Search the Soul</FeatName>
+            <Type>Deity</Type>
+            <LevelTrainedAt>10</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>4</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <ActiveStances>
+          <Stances>Cloth Armor</Stances>
+          <Stances>Centered</Stances>
+          <Stances>Good</Stances>
+          <Stances>Lawful</Stances>
+          <Stances>Empty</Stances>
+          <Stances>Human</Stances>
+        </ActiveStances>
+        <Destiny_SelectedTrees>
+          <TreeName>Divine Crusader</TreeName>
+          <TreeName>Draconic Incarnation</TreeName>
+          <TreeName>Exalted Angel</TreeName>
+          <TreeName>Fatesinger</TreeName>
+        </Destiny_SelectedTrees>
+        <Enhancement_SelectedTrees>
+          <TreeName>Human</TreeName>
+          <TreeName>Vistani Knife Fighter</TreeName>
+          <TreeName>Radiant Servant</TreeName>
+          <TreeName>Warpriest</TreeName>
+          <TreeName>Dragon Lord</TreeName>
+          <TreeName>Ravager (Fighter)</TreeName>
+          <TreeName>Stalwart Defender</TreeName>
+        </Enhancement_SelectedTrees>
+        <Reaper_SelectedTrees>
+          <TreeName>Dire Thaumaturge</TreeName>
+          <TreeName>Dread Adversary</TreeName>
+          <TreeName>Grim Barricade</TreeName>
+        </Reaper_SelectedTrees>
+        <ActiveAttackChain/>
+        <ActiveGear>Standard</ActiveGear>
+        <EquippedGear>
+          <Name>Standard</Name>
+          <NumFiligrees>0</NumFiligrees>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <SnapshotStrength>37</SnapshotStrength>
+          <SnapshotIntelligence>17</SnapshotIntelligence>
+          <SnapshotWisdom>16</SnapshotWisdom>
+          <SnapshotDexterity>16</SnapshotDexterity>
+          <SnapshotConstitution>23</SnapshotConstitution>
+          <SnapshotCharisma>19</SnapshotCharisma>
+        </EquippedGear>
+        <FavorFeats/>
+        <Notes/>
+        <Level4>Strength</Level4>
+        <Level8>Strength</Level8>
+        <Level12>Strength</Level12>
+        <Level16>Strength</Level16>
+        <Level20>Strength</Level20>
+        <Level24>Strength</Level24>
+        <Level28>Strength</Level28>
+        <Level32>Strength</Level32>
+        <Level36>Strength</Level36>
+        <Level40>Strength</Level40>
+      </Build>
+    </Life>
+    <GuildLevel>198</GuildLevel>
+    <ApplyGuildBuffs>1</ApplyGuildBuffs>
+    <ActiveLifeIndex>0</ActiveLifeIndex>
+    <ActiveBuildIndex>2</ActiveBuildIndex>
+  </Character>
+</DDOBuilderCharacterData>

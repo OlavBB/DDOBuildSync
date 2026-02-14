@@ -1,0 +1,1105 @@
+<DDOBuilderCharacterData>
+  <Character version="1">
+    <StrTome>2</StrTome>
+    <DexTome>2</DexTome>
+    <ConTome>2</ConTome>
+    <IntTome>2</IntTome>
+    <WisTome>2</WisTome>
+    <ChaTome>2</ChaTome>
+    <SpecialFeats/>
+    <SkillTomes>
+      <Balance>0</Balance>
+      <Bluff>0</Bluff>
+      <Concentration>0</Concentration>
+      <Diplomacy>0</Diplomacy>
+      <DisableDevice>0</DisableDevice>
+      <Haggle>0</Haggle>
+      <Heal>0</Heal>
+      <Hide>0</Hide>
+      <Intimidate>0</Intimidate>
+      <Jump>0</Jump>
+      <Listen>0</Listen>
+      <MoveSilently>0</MoveSilently>
+      <OpenLock>0</OpenLock>
+      <Perform>0</Perform>
+      <Repair>0</Repair>
+      <Search>0</Search>
+      <SpellCraft>0</SpellCraft>
+      <Spot>0</Spot>
+      <Swim>0</Swim>
+      <Tumble>0</Tumble>
+      <UMD>0</UMD>
+    </SkillTomes>
+    <Life version="1">
+      <Name/>
+      <Race>Halfling</Race>
+      <Alignment>Lawful Good</Alignment>
+      <SpecialFeats>
+        <TrainedFeat>
+          <FeatName>Vistani Knife Fighter Tree</FeatName>
+          <Type>UniversalTree</Type>
+          <LevelTrainedAt>0</LevelTrainedAt>
+        </TrainedFeat>
+        <TrainedFeat>
+          <FeatName>Inquisitive Tree</FeatName>
+          <Type>UniversalTree</Type>
+          <LevelTrainedAt>0</LevelTrainedAt>
+        </TrainedFeat>
+        <TrainedFeat>
+          <FeatName>Horizon Walker Tree</FeatName>
+          <Type>UniversalTree</Type>
+          <LevelTrainedAt>0</LevelTrainedAt>
+        </TrainedFeat>
+        <TrainedFeat>
+          <FeatName>Harper Agent Tree</FeatName>
+          <Type>UniversalTree</Type>
+          <LevelTrainedAt>0</LevelTrainedAt>
+        </TrainedFeat>
+        <TrainedFeat>
+          <FeatName>Feydark Illusionist Tree</FeatName>
+          <Type>UniversalTree</Type>
+          <LevelTrainedAt>0</LevelTrainedAt>
+        </TrainedFeat>
+        <TrainedFeat>
+          <FeatName>Falconry Tree</FeatName>
+          <Type>UniversalTree</Type>
+          <LevelTrainedAt>0</LevelTrainedAt>
+        </TrainedFeat>
+      </SpecialFeats>
+      <Build version="1">
+        <Level>34</Level>
+        <Class1>Cleric</Class1>
+        <Class2>Rogue</Class2>
+        <Class3>Monk</Class3>
+        <AbilitySpend>
+          <Champion/>
+          <AvailableSpend>32</AvailableSpend>
+          <StrSpend>0</StrSpend>
+          <DexSpend>2</DexSpend>
+          <ConSpend>7</ConSpend>
+          <IntSpend>6</IntSpend>
+          <WisSpend>10</WisSpend>
+          <ChaSpend>0</ChaSpend>
+        </AbilitySpend>
+        <LevelTraining>
+          <Class>Rogue</Class>
+          <SkillPointsAvailable>40</SkillPointsAvailable>
+          <SkillPointsSpent>40</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Point Blank Shot</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>0</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Tumble</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Use Magic Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Jump</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Swim</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Haggle</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Follower of the Sovereign Host</FeatName>
+            <Type>Follower Of</Type>
+            <LevelTrainedAt>1</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Precise Shot</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>2</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Domain of Destruction</FeatName>
+            <Type>Domain</Type>
+            <LevelTrainedAt>2</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Monk</Class>
+          <SkillPointsAvailable>7</SkillPointsAvailable>
+          <SkillPointsSpent>7</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Precision</FeatName>
+            <Type>Monk Bonus</Type>
+            <LevelTrainedAt>3</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Monk</Class>
+          <SkillPointsAvailable>7</SkillPointsAvailable>
+          <SkillPointsSpent>7</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Toughness</FeatName>
+            <Type>Monk Bonus</Type>
+            <LevelTrainedAt>4</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Spot</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Rapid Reload</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>5</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Improved Domain of Destruction</FeatName>
+            <Type>Domain Feat</Type>
+            <LevelTrainedAt>7</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Rapid Shot</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>8</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Search the Soul</FeatName>
+            <Type>Deity</Type>
+            <LevelTrainedAt>8</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Greater Domain of Destruction</FeatName>
+            <Type>Domain Feat</Type>
+            <LevelTrainedAt>11</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Empower Healing Spell</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>11</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Improved Critical: Ranged Weapons</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>14</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Cleric</Class>
+          <SkillPointsAvailable>5</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Master of the Domain of Destruction</FeatName>
+            <Type>Domain Feat</Type>
+            <LevelTrainedAt>16</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Rogue</Class>
+          <SkillPointsAvailable>11</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Nimble Fingers</FeatName>
+            <Type>Standard</Type>
+            <LevelTrainedAt>17</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Rogue</Class>
+          <SkillPointsAvailable>11</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Open Lock</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Rogue</Class>
+          <SkillPointsAvailable>11</SkillPointsAvailable>
+          <SkillPointsSpent>5</SkillPointsSpent>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Disable Device</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Search</Skill>
+          </TrainedSkill>
+          <TrainedSkill>
+            <Skill>Heal</Skill>
+          </TrainedSkill>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Overwhelming Critical</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>20</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Holy Strike</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>21</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Patience</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>23</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Doubleshot</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>24</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Eerie Aim</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>26</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Embodiment of Law</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>27</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Epic</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Watchful Eye</FeatName>
+            <Type>Epic Feat</Type>
+            <LevelTrainedAt>29</LevelTrainedAt>
+          </TrainedFeat>
+          <TrainedFeat>
+            <FeatName>Scion of Arborea</FeatName>
+            <Type>Legendary Feat</Type>
+            <LevelTrainedAt>29</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Legendary Aim</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>30</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+        </LevelTraining>
+        <LevelTraining>
+          <Class>Legendary</Class>
+          <SkillPointsAvailable>0</SkillPointsAvailable>
+          <SkillPointsSpent>0</SkillPointsSpent>
+          <TrainedFeat>
+            <FeatName>Titan's Blood</FeatName>
+            <Type>Epic Destiny Feat</Type>
+            <LevelTrainedAt>33</LevelTrainedAt>
+          </TrainedFeat>
+        </LevelTraining>
+        <ActiveStances>
+          <Stances>Cloth Armor</Stances>
+          <Stances>Centered</Stances>
+          <Stances>Good</Stances>
+          <Stances>Lawful</Stances>
+          <Stances>Empty</Stances>
+          <Stances>Halfling</Stances>
+        </ActiveStances>
+        <Destiny_SelectedTrees>
+          <TreeName>No selection</TreeName>
+          <TreeName>No selection</TreeName>
+          <TreeName>No selection</TreeName>
+          <TreeName>No selection</TreeName>
+        </Destiny_SelectedTrees>
+        <Enhancement_SelectedTrees>
+          <TreeName>Halfling</TreeName>
+          <TreeName>Inquisitive</TreeName>
+          <TreeName>Falconry</TreeName>
+          <TreeName>Mechanic</TreeName>
+          <TreeName>Assassin</TreeName>
+          <TreeName>Henshin Mystic</TreeName>
+          <TreeName>Thief-Acrobat</TreeName>
+          <Tier5Tree>Inquisitive</Tier5Tree>
+        </Enhancement_SelectedTrees>
+        <Reaper_SelectedTrees>
+          <TreeName>Dire Thaumaturge</TreeName>
+          <TreeName>Dread Adversary</TreeName>
+          <TreeName>Grim Barricade</TreeName>
+        </Reaper_SelectedTrees>
+        <EnhancementSpendInTree>
+          <TreeName>Inquisitive</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveDualShooter</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveEyeForAccuracy</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveLawOnYourSide</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveConjureBolts</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveImprovedLaw</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveObservation</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCore2</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCrossbowAdept</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveImprovedObservation</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveWhatFirst</EnhancementName>
+            <Selection>Shoot First</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveAbilityI</EnhancementName>
+            <Selection>Wisdom</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCrossbowAdeptII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveWhatLater</EnhancementName>
+            <Selection>Ask Questions Later</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveInquisitionStyle</EnhancementName>
+            <Selection>Martial Inquisition</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveGreaterLaw</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCore4</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCrossbowAdeptIII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveAbilityII</EnhancementName>
+            <Selection>Wisdom</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveNoHoldsBarred</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveImprovedUncannyDodge</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveInquisitorsPath</EnhancementName>
+            <Selection>Jaded</Selection>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveDiplomaticImmunity</EnhancementName>
+            <Ranks>1</Ranks>
+            <IsTier5/>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCore5</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>InquisitiveCore6</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Falconry</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>FalconCore1</EnhancementName>
+            <Selection>Summon White Falcon</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>FalconPracticedAccuracy</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>FalconOutInNature</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>FalconCore2</EnhancementName>
+            <Selection>Wisdom</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>FalconKillerInstinctI</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>FalconDivingShot</EnhancementName>
+            <Selection>Diving Shot</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>FalconCore3</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>FalconKillerInstinctII</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>FalconTearFlesh</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>FalconStrikeForTheEyes</EnhancementName>
+            <Selection>Go for the Eyes Shot</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>FalconConditioning</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>FalconExposeWeakness</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>FalconCoordinatedStrikes</EnhancementName>
+            <Selection>Coordinated Shot</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>FalconCore4</EnhancementName>
+            <Selection>Wisdom</Selection>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>FalconDeadlyInstinct</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+          <TrainedEnhancement>
+            <EnhancementName>FalconNoMercy</EnhancementName>
+            <Ranks>3</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Warpriest</TreeName>
+          <TreeVersion>1</TreeVersion>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Radiant Servant</TreeName>
+          <TreeVersion>1</TreeVersion>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Halfling</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>HalflingCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Dark Apostate</TreeName>
+          <TreeVersion>1</TreeVersion>
+        </EnhancementSpendInTree>
+        <EnhancementSpendInTree>
+          <TreeName>Mechanic</TreeName>
+          <TreeVersion>1</TreeVersion>
+          <TrainedEnhancement>
+            <EnhancementName>MechCore1</EnhancementName>
+            <Ranks>1</Ranks>
+          </TrainedEnhancement>
+        </EnhancementSpendInTree>
+        <ActiveAttackChain/>
+        <ActiveGear>Standard</ActiveGear>
+        <EquippedGear>
+          <Name>Standard</Name>
+          <NumFiligrees>0</NumFiligrees>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <ArtifactFiligree>
+            <Name/>
+          </ArtifactFiligree>
+          <SnapshotStrength>18</SnapshotStrength>
+          <SnapshotIntelligence>18</SnapshotIntelligence>
+          <SnapshotWisdom>26</SnapshotWisdom>
+          <SnapshotDexterity>16</SnapshotDexterity>
+          <SnapshotConstitution>19</SnapshotConstitution>
+          <SnapshotCharisma>12</SnapshotCharisma>
+        </EquippedGear>
+        <FavorFeats/>
+        <Notes/>
+        <Level4>Strength</Level4>
+        <Level8>Strength</Level8>
+        <Level12>Strength</Level12>
+        <Level16>Strength</Level16>
+        <Level20>Strength</Level20>
+        <Level24>Strength</Level24>
+        <Level28>Strength</Level28>
+        <Level32>Strength</Level32>
+        <Level36>Strength</Level36>
+        <Level40>Strength</Level40>
+      </Build>
+    </Life>
+    <ApplyGuildBuffs>1</ApplyGuildBuffs>
+    <ActiveLifeIndex>0</ActiveLifeIndex>
+    <ActiveBuildIndex>0</ActiveBuildIndex>
+  </Character>
+</DDOBuilderCharacterData>
