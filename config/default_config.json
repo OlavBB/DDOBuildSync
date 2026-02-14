@@ -1,0 +1,7 @@
+{
+  "buildsFolder": "",
+  "ddoBuilderExe": "",
+  "gitRepoUrl": "",
+  "autoPushOnClose": true,
+  "autoPullOnLaunch": true
+}

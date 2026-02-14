@@ -1,0 +1,2 @@
+// DDOBuildSync Resource Script
+// Manifest is handled by the linker/CMake, not embedded here.
