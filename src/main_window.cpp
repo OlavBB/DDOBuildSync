@@ -701,7 +701,8 @@ void MainWindow::OnUpdateDDOBuilder() {
             "Update DDO Builder V2 from " +
             (currentVer.empty() ? "unknown" : currentVer) +
             " to " + info.latestVersion + "?\n\n"
-            "Build files and git repo will be migrated to the new folder automatically.";
+            "New files will be installed into the existing folder.\n"
+            "Your build files and git repo will not be affected.";
 
         int answer = MessageBoxA(m_hwnd, confirmMsg.c_str(),
                                  "DDO Builder Update", MB_YESNO | MB_ICONQUESTION);
