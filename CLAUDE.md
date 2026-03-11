@@ -55,6 +55,17 @@ User config saved as `ddobuildsync_config.json` next to exe (separate from `defa
 - Commit messages: `"Update builds - YYYY-MM-DD HH:MM:SS"`
 - First-run setup: `git init`, write `.gitignore`, `git remote add origin`, initial commit+push
 
+## Auto-sync (hourly)
+- Timer `IDT_SYNC_INITIAL` fires 10s after launch (one-shot), then sets `IDT_SYNC_HOUR` every 3600s
+- `OnSyncTimer()` skips if busy or DDO is running
+- If local changes: pull then push. If clean: pull only.
+- Timers killed on WM_CLOSE
+
+## GitHub
+- Repo: `github.com/OlavBB/DDOBuildSync`
+- Default branch: `main`
+- Push to remote: `git push origin main`
+
 ## Build gotchas
 - Must define UNICODE and _UNICODE (in CMakeLists.txt)
 - HMENU casts on x64: `reinterpret_cast<HMENU>(static_cast<INT_PTR>(id))`
