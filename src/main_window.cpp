@@ -711,30 +711,12 @@ void MainWindow::OnUpdateDDOBuilder() {
             return;
         }
 
-        // Parent folder = one level above the current builds folder
-        std::string parentFolder = cfg.buildsFolder;
-        while (!parentFolder.empty() && (parentFolder.back() == '\\' || parentFolder.back() == '/'))
-            parentFolder.pop_back();
-        auto slash = parentFolder.find_last_of("\\/");
-        if (slash != std::string::npos)
-            parentFolder = parentFolder.substr(0, slash);
-
-        std::string newExe = m_updater.DownloadAndInstall(info, parentFolder, cfg.buildsFolder);
+        std::string newExe = m_updater.DownloadAndInstall(info, cfg.buildsFolder);
         if (newExe.empty()) return;
 
-        // Update config
-        std::string newFolder = newExe.substr(0, newExe.find_last_of("\\/"));
+        // ddoBuilderExe path stays the same (same folder), just save to confirm
         cfg.ddoBuilderExe = newExe;
-        cfg.buildsFolder  = newFolder;
-        m_gitMgr.SetWorkDir(newFolder);
         m_configMgr.SaveDefault();
-
-        // Update UI labels
-        PostMessageW(m_hwnd, WM_APP_LOG, 0,
-            reinterpret_cast<LPARAM>(_strdup(("Builds folder updated to: " + newFolder).c_str())));
-
-        // Refresh folder label on UI thread
-        SetWindowTextW(m_lblFolder, Utils::ToWide(newFolder).c_str());
     });
 }
 

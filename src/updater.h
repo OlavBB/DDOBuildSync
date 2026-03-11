@@ -23,11 +23,10 @@ public:
     // Returns true if version string a > b (format "X.X.X.X")
     static bool IsNewer(const std::string& a, const std::string& b);
 
-    // Download zip, extract to parentFolder, migrate .git + builds from oldBuildsFolder.
-    // Returns new DDOBuilder.exe path, or empty on error.
+    // Download zip, extract to temp, merge into existing buildsFolder (overwrites exe/data,
+    // leaves .DDOBuild and .git untouched). Returns DDOBuilder.exe path, or empty on error.
     std::string DownloadAndInstall(const UpdateInfo& info,
-                                   const std::string& parentFolder,
-                                   const std::string& oldBuildsFolder);
+                                   const std::string& buildsFolder);
 
 private:
     UpdateLogCallback m_logCb;

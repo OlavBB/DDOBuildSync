@@ -124,12 +124,14 @@ bool Updater::FetchLatestRelease(UpdateInfo& out) {
 }
 
 std::string Updater::DownloadAndInstall(const UpdateInfo& info,
-                                        const std::string& parentFolder,
-                                        const std::string& oldBuildsFolder) {
+                                        const std::string& buildsFolder) {
     // --- Download ---
     char tempBuf[MAX_PATH];
     GetTempPathA(MAX_PATH, tempBuf);
-    std::string zipPath = std::string(tempBuf) + info.assetName;
+    std::string tempDir  = std::string(tempBuf) + "DDOBuildSync_update\\";
+    std::string zipPath  = tempDir + info.assetName;
+
+    CreateDirectoryA(tempDir.c_str(), nullptr);
 
     Log("Downloading " + info.assetName + " (~45 MB, please wait)...");
     RunHidden("curl -L -o \"" + zipPath + "\" \"" + info.downloadUrl + "\"", 300000);
@@ -139,41 +141,41 @@ std::string Updater::DownloadAndInstall(const UpdateInfo& info,
         return "";
     }
 
-    // --- Extract ---
-    // Trim trailing slashes from parentFolder
-    std::string dest = parentFolder;
-    while (!dest.empty() && (dest.back() == '\\' || dest.back() == '/'))
-        dest.pop_back();
-
-    Log("Extracting to " + dest + "...");
+    // --- Extract to temp subfolder ---
+    std::string extractDir = tempDir + "extracted\\";
+    Log("Extracting...");
     RunHidden(
         "powershell -NoProfile -NonInteractive -Command "
-        "\"Expand-Archive -Path '" + zipPath + "' -DestinationPath '" + dest + "' -Force\"",
+        "\"Expand-Archive -Path '" + zipPath + "' -DestinationPath '" + extractDir + "' -Force\"",
         120000
     );
     DeleteFileA(zipPath.c_str());
 
-    std::string newFolder = dest + "\\DDOBuilderV2_" + info.latestVersion;
-    std::string newExe    = newFolder + "\\DDOBuilder.exe";
-
-    if (GetFileAttributesA(newExe.c_str()) == INVALID_FILE_ATTRIBUTES) {
-        Log("Extraction failed: DDOBuilder.exe not found at " + newExe);
+    // The zip extracts to a subfolder: extracted/DDOBuilderV2_X.X.X.X/
+    std::string extractedFolder = extractDir + "DDOBuilderV2_" + info.latestVersion + "\\";
+    if (GetFileAttributesA(extractedFolder.c_str()) == INVALID_FILE_ATTRIBUTES) {
+        Log("Extraction failed: expected folder not found: " + extractedFolder);
         return "";
     }
 
-    // --- Migrate .git and .DDOBuild files from old folder ---
-    if (!oldBuildsFolder.empty() && oldBuildsFolder != newFolder) {
-        std::string oldGit = oldBuildsFolder + "\\.git";
-        if (GetFileAttributesA(oldGit.c_str()) != INVALID_FILE_ATTRIBUTES) {
-            Log("Migrating git repo to new folder...");
-            RunHidden("robocopy \"" + oldGit + "\" \"" + newFolder + "\\.git\" /E /NFL /NDL /NJH /NJS /NC /NS", 30000);
-        }
+    // --- Merge into existing buildsFolder (overwrite exe/data, keep .DDOBuild + .git) ---
+    Log("Installing into " + buildsFolder + "...");
+    RunHidden(
+        "robocopy \"" + extractedFolder + "\" \"" + buildsFolder +
+        "\" /E /IS /IT /NFL /NDL /NJH /NJS /NC /NS",
+        60000
+    );
 
-        Log("Migrating build files to new folder...");
-        RunHidden("robocopy \"" + oldBuildsFolder + "\" \"" + newFolder +
-                  "\" *.DDOBuild *.DDOBuild.backup .gitignore /NFL /NDL /NJH /NJS /NC /NS", 30000);
+    // --- Cleanup temp ---
+    RunHidden("rmdir /S /Q \"" + tempDir + "\"", 15000);
+
+    // Verify
+    std::string exePath = buildsFolder + "\\DDOBuilder.exe";
+    if (GetFileAttributesA(exePath.c_str()) == INVALID_FILE_ATTRIBUTES) {
+        Log("Install failed: DDOBuilder.exe not found after update");
+        return "";
     }
 
     Log("DDO Builder V2 " + info.latestVersion + " installed successfully.");
-    return newExe;
+    return exePath;
 }
