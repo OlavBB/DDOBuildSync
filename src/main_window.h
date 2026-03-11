@@ -12,6 +12,10 @@ constexpr UINT WM_APP_LOG        = WM_APP + 1;
 constexpr UINT WM_APP_GIT_DONE   = WM_APP + 2;
 constexpr UINT WM_APP_DDO_EXITED = WM_APP + 3;
 
+// Timer IDs
+constexpr UINT IDT_SYNC_INITIAL = 1;  // fires once after 10s
+constexpr UINT IDT_SYNC_HOUR    = 2;  // fires every hour
+
 // Control IDs
 enum {
     ID_BTN_LAUNCH     = 101,
@@ -84,4 +88,7 @@ private:
     std::atomic<bool> m_ddoRunning{false};
     std::thread m_workerThread;
     std::thread m_monitorThread;
+
+    // Hourly auto-sync
+    void OnSyncTimer();
 };

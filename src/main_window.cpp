@@ -57,7 +57,16 @@ LRESULT MainWindow::HandleMessage(UINT msg, WPARAM wParam, LPARAM lParam) {
             OnPush();
         }
         return 0;
+    case WM_TIMER:
+        if (wParam == IDT_SYNC_INITIAL) {
+            KillTimer(m_hwnd, IDT_SYNC_INITIAL);
+            SetTimer(m_hwnd, IDT_SYNC_HOUR, 3600000, nullptr);
+        }
+        OnSyncTimer();
+        return 0;
     case WM_CLOSE:
+        KillTimer(m_hwnd, IDT_SYNC_INITIAL);
+        KillTimer(m_hwnd, IDT_SYNC_HOUR);
         if (m_workerThread.joinable()) m_workerThread.detach();
         if (m_monitorThread.joinable()) m_monitorThread.detach();
         OnDestroy();
@@ -153,6 +162,8 @@ void MainWindow::OnCreate() {
     // Sync checkbox state
     SendMessageW(m_chkAutoPush, BM_SETCHECK, cfg.autoPushOnClose ? BST_CHECKED : BST_UNCHECKED, 0);
     SendMessageW(m_chkAutoPull, BM_SETCHECK, cfg.autoPullOnLaunch ? BST_CHECKED : BST_UNCHECKED, 0);
+
+    SetTimer(m_hwnd, IDT_SYNC_INITIAL, 10000, nullptr);  // Initial sync after 10s
 }
 
 void MainWindow::CreateControls() {
@@ -637,4 +648,25 @@ bool MainWindow::RunSetupDialog() {
     }
 
     return true;
+}
+
+// ---------- Hourly auto-sync ----------
+
+void MainWindow::OnSyncTimer() {
+    if (m_busy.load() || m_ddoRunning.load()) return;
+    if (!m_gitMgr.IsGitAvailable() || !m_gitMgr.IsRepoInitialized()) return;
+
+    RunAsync([this]() {
+        int changed = m_gitMgr.GetChangedFileCount();
+        if (changed > 0) {
+            char buf[64];
+            snprintf(buf, sizeof(buf), "Auto-sync: %d changed file(s), pushing...", changed);
+            AppendLog(buf);
+            m_gitMgr.Pull();
+            m_gitMgr.Push();
+        } else {
+            AppendLog("Auto-sync: pulling latest...");
+            m_gitMgr.Pull();
+        }
+    });
 }
