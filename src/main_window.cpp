@@ -43,8 +43,9 @@ LRESULT MainWindow::HandleMessage(UINT msg, WPARAM wParam, LPARAM lParam) {
     case WM_APP_GIT_DONE:
         m_busy = false;
         EnableWindow(m_btnLaunch, TRUE);
-        EnableWindow(m_btnPull, TRUE);
-        EnableWindow(m_btnPush, TRUE);
+        EnableWindow(m_btnPull,   TRUE);
+        EnableWindow(m_btnPush,   TRUE);
+        EnableWindow(m_btnUpdate, TRUE);
         SetStatus(L"Ready");
         return 0;
     case WM_APP_DDO_EXITED:
@@ -123,6 +124,13 @@ void MainWindow::OnCreate() {
         }
     }
 
+    // Setup updater
+    m_updater.SetLogCallback([this](const std::string& msg) {
+        char* copy = _strdup(msg.c_str());
+        if (!PostMessageW(m_hwnd, WM_APP_LOG, 0, reinterpret_cast<LPARAM>(copy)))
+            free(copy);
+    });
+
     // Setup git manager
     m_gitMgr.SetWorkDir(cfg.buildsFolder);
     m_gitMgr.SetRepoUrl(cfg.gitRepoUrl);
@@ -192,6 +200,12 @@ void MainWindow::CreateControls() {
         WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON,
         x + btnW + 230, y, 80, btnH, m_hwnd,
         reinterpret_cast<HMENU>(static_cast<INT_PTR>(ID_BTN_SETUP)),
+        m_hInstance, nullptr);
+
+    m_btnUpdate = CreateWindowW(L"BUTTON", L"Update Builder",
+        WS_CHILD | WS_VISIBLE | BS_PUSHBUTTON,
+        x + btnW + 320, y, 120, btnH, m_hwnd,
+        reinterpret_cast<HMENU>(static_cast<INT_PTR>(ID_BTN_UPDATE)),
         m_hInstance, nullptr);
 
     y += btnH + 15;
@@ -304,6 +318,9 @@ void MainWindow::OnCommand(WPARAM wParam) {
     case ID_BTN_SETUP:
         OnSetup();
         break;
+    case ID_BTN_UPDATE:
+        OnUpdateDDOBuilder();
+        break;
     case ID_CHK_AUTOPUSH:
         m_configMgr.Get().autoPushOnClose =
             (SendMessageW(m_chkAutoPush, BM_GETCHECK, 0, 0) == BST_CHECKED);
@@ -329,8 +346,9 @@ void MainWindow::RunAsync(std::function<void()> work) {
         return;
     }
     m_busy = true;
-    EnableWindow(m_btnPull, FALSE);
-    EnableWindow(m_btnPush, FALSE);
+    EnableWindow(m_btnPull,   FALSE);
+    EnableWindow(m_btnPush,   FALSE);
+    EnableWindow(m_btnUpdate, FALSE);
 
     if (m_workerThread.joinable()) m_workerThread.detach();
     m_workerThread = std::thread([this, work = std::move(work)]() {
@@ -648,6 +666,76 @@ bool MainWindow::RunSetupDialog() {
     }
 
     return true;
+}
+
+// ---------- DDO Builder update ----------
+
+void MainWindow::OnUpdateDDOBuilder() {
+    if (m_ddoRunning.load()) {
+        AppendLog("Cannot update while DDO Builder is running. Close it first.");
+        return;
+    }
+
+    RunAsync([this]() {
+        auto& cfg = m_configMgr.Get();
+
+        UpdateInfo info;
+        if (!m_updater.FetchLatestRelease(info)) return;
+
+        std::string currentVer = Updater::ExtractVersionFromPath(cfg.ddoBuilderExe);
+
+        char logMsg[128];
+        snprintf(logMsg, sizeof(logMsg), "Installed: %s  |  Latest: %s",
+                 currentVer.empty() ? "unknown" : currentVer.c_str(),
+                 info.latestVersion.c_str());
+        char* lm = _strdup(logMsg);
+        PostMessageW(m_hwnd, WM_APP_LOG, 0, reinterpret_cast<LPARAM>(lm));
+
+        if (!currentVer.empty() && !Updater::IsNewer(info.latestVersion, currentVer)) {
+            char* upToDate = _strdup("DDO Builder is already up to date.");
+            PostMessageW(m_hwnd, WM_APP_LOG, 0, reinterpret_cast<LPARAM>(upToDate));
+            return;
+        }
+
+        std::string confirmMsg =
+            "Update DDO Builder V2 from " +
+            (currentVer.empty() ? "unknown" : currentVer) +
+            " to " + info.latestVersion + "?\n\n"
+            "Build files and git repo will be migrated to the new folder automatically.";
+
+        int answer = MessageBoxA(m_hwnd, confirmMsg.c_str(),
+                                 "DDO Builder Update", MB_YESNO | MB_ICONQUESTION);
+        if (answer != IDYES) {
+            char* cancelled = _strdup("Update cancelled.");
+            PostMessageW(m_hwnd, WM_APP_LOG, 0, reinterpret_cast<LPARAM>(cancelled));
+            return;
+        }
+
+        // Parent folder = one level above the current builds folder
+        std::string parentFolder = cfg.buildsFolder;
+        while (!parentFolder.empty() && (parentFolder.back() == '\\' || parentFolder.back() == '/'))
+            parentFolder.pop_back();
+        auto slash = parentFolder.find_last_of("\\/");
+        if (slash != std::string::npos)
+            parentFolder = parentFolder.substr(0, slash);
+
+        std::string newExe = m_updater.DownloadAndInstall(info, parentFolder, cfg.buildsFolder);
+        if (newExe.empty()) return;
+
+        // Update config
+        std::string newFolder = newExe.substr(0, newExe.find_last_of("\\/"));
+        cfg.ddoBuilderExe = newExe;
+        cfg.buildsFolder  = newFolder;
+        m_gitMgr.SetWorkDir(newFolder);
+        m_configMgr.SaveDefault();
+
+        // Update UI labels
+        PostMessageW(m_hwnd, WM_APP_LOG, 0,
+            reinterpret_cast<LPARAM>(_strdup(("Builds folder updated to: " + newFolder).c_str())));
+
+        // Refresh folder label on UI thread
+        SetWindowTextW(m_lblFolder, Utils::ToWide(newFolder).c_str());
+    });
 }
 
 // ---------- Hourly auto-sync ----------

@@ -7,6 +7,7 @@
 #include <atomic>
 #include "config.h"
 #include "git_manager.h"
+#include "updater.h"
 
 constexpr UINT WM_APP_LOG        = WM_APP + 1;
 constexpr UINT WM_APP_GIT_DONE   = WM_APP + 2;
@@ -22,6 +23,7 @@ enum {
     ID_BTN_PULL       = 102,
     ID_BTN_PUSH       = 103,
     ID_BTN_SETUP      = 104,
+    ID_BTN_UPDATE     = 105,
     ID_EDIT_LOG       = 201,
     ID_STATIC_FOLDER  = 301,
     ID_STATIC_REPO    = 302,
@@ -56,6 +58,7 @@ private:
     void OnPull();
     void OnPush();
     void OnSetup();
+    void OnUpdateDDOBuilder();
 
     // Run git operation on background thread
     void RunAsync(std::function<void()> work);
@@ -70,10 +73,11 @@ private:
     HINSTANCE m_hInstance = nullptr;
 
     // Controls
-    HWND m_btnLaunch = nullptr;
-    HWND m_btnPull   = nullptr;
-    HWND m_btnPush   = nullptr;
-    HWND m_btnSetup  = nullptr;
+    HWND m_btnLaunch  = nullptr;
+    HWND m_btnPull    = nullptr;
+    HWND m_btnPush    = nullptr;
+    HWND m_btnSetup   = nullptr;
+    HWND m_btnUpdate  = nullptr;
     HWND m_editLog   = nullptr;
     HWND m_lblFolder = nullptr;
     HWND m_lblRepo   = nullptr;
@@ -83,6 +87,7 @@ private:
 
     ConfigManager m_configMgr;
     GitManager m_gitMgr;
+    Updater m_updater;
 
     std::atomic<bool> m_busy{false};
     std::atomic<bool> m_ddoRunning{false};

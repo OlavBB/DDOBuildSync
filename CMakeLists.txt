@@ -18,6 +18,7 @@ set(SOURCES
     src/git_manager.cpp
     src/config.cpp
     src/utils.cpp
+    src/updater.cpp
 )
 
 set(HEADERS
@@ -25,6 +26,7 @@ set(HEADERS
     src/git_manager.h
     src/config.h
     src/utils.h
+    src/updater.h
 )
 
 add_executable(DDOBuildSync WIN32
