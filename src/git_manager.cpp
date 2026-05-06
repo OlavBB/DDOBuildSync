@@ -183,11 +183,23 @@ bool GitManager::Pull() {
     Log("Pulling latest builds...");
     std::string output;
 
-    int rc = RunGit("pull origin main --rebase", output);
+    // Clean up any stuck state first
+    RunGit("rebase --abort", output);
+    RunGit("merge --abort", output);
+
+    // Ensure we're on main before pulling
+    if (RunGit("checkout main", output) != 0) {
+        RunGit("checkout -B main", output);
+    }
+
+    int rc = RunGit("pull --ff-only origin main", output);
     if (rc != 0) {
-        // Try without --rebase in case of issues
-        Log("Pull with rebase failed, trying regular pull...");
-        rc = RunGit("pull origin main", output);
+        // Remote has diverged — fetch and merge keeping remote changes for non-conflicting files,
+        // but since push uses force, this case means we're pulling from another machine's push.
+        // Take remote version fully (other machine was last to play).
+        Log("Fast-forward not possible, resetting to remote...");
+        RunGit("fetch origin main", output);
+        rc = RunGit("reset --hard FETCH_HEAD", output);
         if (rc != 0) {
             Log("Pull failed");
             return false;
@@ -207,8 +219,16 @@ bool GitManager::Push() {
     Log("Pushing builds...");
     std::string output;
 
-    // Stage all changes (additions, modifications, and deletions)
-    // .gitignore whitelist ensures only build files are tracked
+    // Clean up any stuck rebase/merge state
+    RunGit("rebase --abort", output);
+    RunGit("merge --abort", output);
+
+    // Ensure we're on main — if checkout fails (e.g. unmerged files), force it
+    if (RunGit("checkout main", output) != 0) {
+        RunGit("checkout -B main", output);
+    }
+
+    // Stage all changes
     RunGit("add -A", output);
 
     // Check if there are changes
@@ -226,10 +246,13 @@ bool GitManager::Push() {
         return false;
     }
 
-    // Push
+    // Push — local builds are always authoritative (last machine played = truth)
     if (RunGit("push origin main", output) != 0) {
-        Log("Push failed");
-        return false;
+        Log("Push rejected, force-pushing (local builds are authoritative)...");
+        if (RunGit("push --force-with-lease origin main", output) != 0) {
+            Log("Push failed");
+            return false;
+        }
     }
 
     Log("Push complete");

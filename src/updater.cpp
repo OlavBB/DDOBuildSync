@@ -143,25 +143,51 @@ std::string Updater::DownloadAndInstall(const UpdateInfo& info,
 
     // --- Extract to temp subfolder ---
     std::string extractDir = tempDir + "extracted\\";
+    CreateDirectoryA(extractDir.c_str(), nullptr);
     Log("Extracting...");
+    // Use .NET ZipFile directly — faster than Expand-Archive, avoids GNU tar (no zip support)
     RunHidden(
-        "powershell -NoProfile -NonInteractive -Command "
-        "\"Expand-Archive -Path '" + zipPath + "' -DestinationPath '" + extractDir + "' -Force\"",
+        "powershell -NoProfile -NonInteractive -Command \""
+        "Add-Type -AssemblyName System.IO.Compression.FileSystem; "
+        "[System.IO.Compression.ZipFile]::ExtractToDirectory('" + zipPath + "', '" + extractDir + "')\"",
         120000
     );
     DeleteFileA(zipPath.c_str());
 
-    // The zip extracts to a subfolder: extracted/DDOBuilderV2_X.X.X.X/
-    std::string extractedFolder = extractDir + "DDOBuilderV2_" + info.latestVersion + "\\";
-    if (GetFileAttributesA(extractedFolder.c_str()) == INVALID_FILE_ATTRIBUTES) {
-        Log("Extraction failed: expected folder not found: " + extractedFolder);
+    // Find where DDOBuilder.exe landed after extraction.
+    // If exe is in extractDir root, use that. Otherwise look one level deep.
+    std::string extractedFolder = extractDir;
+    if (GetFileAttributesA((extractDir + "DDOBuilder.exe").c_str()) == INVALID_FILE_ATTRIBUTES) {
+        WIN32_FIND_DATAA fd = {};
+        HANDLE hFind = FindFirstFileA((extractDir + "*").c_str(), &fd);
+        if (hFind != INVALID_HANDLE_VALUE) {
+            do {
+                if ((fd.dwFileAttributes & FILE_ATTRIBUTE_DIRECTORY) && fd.cFileName[0] != '.') {
+                    std::string candidate = extractDir + fd.cFileName + "\\";
+                    if (GetFileAttributesA((candidate + "DDOBuilder.exe").c_str()) != INVALID_FILE_ATTRIBUTES) {
+                        extractedFolder = candidate;
+                        break;
+                    }
+                }
+            } while (FindNextFileA(hFind, &fd));
+            FindClose(hFind);
+        }
+    }
+    if (GetFileAttributesA((extractedFolder + "DDOBuilder.exe").c_str()) == INVALID_FILE_ATTRIBUTES) {
+        Log("Extraction failed: DDOBuilder.exe not found in " + extractedFolder);
         return "";
     }
+    Log("Installing from: " + extractedFolder);
 
     // --- Merge into existing buildsFolder (overwrite exe/data, keep .DDOBuild + .git) ---
+    // Strip trailing backslash — "path\" in cmd is parsed as escaped quote, breaking the command
+    auto stripSlash = [](std::string s) {
+        while (!s.empty() && (s.back() == '\\' || s.back() == '/')) s.pop_back();
+        return s;
+    };
     Log("Installing into " + buildsFolder + "...");
     RunHidden(
-        "robocopy \"" + extractedFolder + "\" \"" + buildsFolder +
+        "robocopy \"" + stripSlash(extractedFolder) + "\" \"" + stripSlash(buildsFolder) +
         "\" /E /IS /IT /NFL /NDL /NJH /NJS /NC /NS",
         60000
     );

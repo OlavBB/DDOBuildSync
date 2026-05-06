@@ -264,6 +264,7 @@ void MainWindow::CreateControls() {
     if (hFont) {
         SendMessageW(m_editLog, WM_SETFONT, reinterpret_cast<WPARAM>(hFont), TRUE);
     }
+    SendMessageW(m_editLog, EM_LIMITTEXT, 0, 0); // remove 30k char default limit
 }
 
 void MainWindow::UpdateStatusLabels() {
@@ -295,8 +296,14 @@ void MainWindow::AppendLog(const std::string& text) {
     std::string line = std::string(timestamp) + text + "\r\n";
     std::wstring wline = Utils::ToWide(line);
 
-    // Append to edit control
+    // Trim oldest half when log exceeds ~200k chars
     int len = GetWindowTextLengthW(m_editLog);
+    if (len > 200000) {
+        SendMessageW(m_editLog, EM_SETSEL, 0, len / 2);
+        SendMessageW(m_editLog, EM_REPLACESEL, FALSE, reinterpret_cast<LPARAM>(L""));
+        len = GetWindowTextLengthW(m_editLog);
+    }
+
     SendMessageW(m_editLog, EM_SETSEL, len, len);
     SendMessageW(m_editLog, EM_REPLACESEL, FALSE, reinterpret_cast<LPARAM>(wline.c_str()));
 
